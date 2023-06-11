@@ -1,14 +1,17 @@
-# CHALLENGE #T0144 - INTERNS & HR ON THE DOMAIN CONTROLLER [NG]
+# CHALLENGE #T0144
+# INTERNS & HR ON THE DOMAIN CONTROLLER [NG]
 Author: Malcolm Reed Jr.
 Framework Category: Operate and Maintain
 Specialty Area: Systems Administration
 Work Role: System Administrator
 Task Description: Manage accounts, network rights, and access to systems and equipment.
 
-SCENARIO
+SCENARIO:
+
 Recently we concluded our first intern program here at DASWebs. While we expected it to be valuable to the intern, Rob, after working with our techs for a while on our network he brought to our attention that he could access critical systems with his basic domain credentials. After which we reviewed how things were setup we found that many domain users have access to servers and shares they shouldn't. The techs and I have already outlines the basic start to fixing these issues and we want you to handle it.
 
-Additional Information
+ADDITIONAL INFORMATION:
+
 More details and objectives about this challenge will be introduced during the challenge meeting, which will start once you begin deploying the challenge.
 
 # MEETING BRIEFING
