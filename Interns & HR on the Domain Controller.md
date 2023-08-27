@@ -1,5 +1,5 @@
 # CHALLENGE #T0144
-# NICE INTERNS & HR ON THE DOMAIN CONTROLLER [NG]
+# INTERNS & HR ON THE DOMAIN CONTROLLER [NG]
 Author: Malcolm Reed Jr.
 Framework Category: Operate and Maintain
 Specialty Area: Systems Administration
