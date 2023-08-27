@@ -1,0 +1,27 @@
+Playing Find the Bottleneck, Stage: Data Gathering [NG]
+Author: Brendan Higgins
+Framework Category: Operate and Maintain
+Specialty Area: Customer Service and Technical Support
+Work Role: Technical Support Specialist
+Task Description: Monitor and report client-level computer system performance. (T0502)
+Scenario
+During a systems design meeting our systems engineer noted that the hard drive in our AD server may be a performance bottleneck. Before our next meeting we will need more information so that we might select the right system components to upgrade to best increase performance. To rule in or our the AD server's hard drive we need you to run some performance tests on it and return the resulting data to us. Be sure to check with the operations staff and see what benchmarks they prefer.
+
+Additional Information
+More details and objectives about this challenge will be introduced during the challenge meeting, which will start once you begin deploying the challenge.
+
+You will be able to check your progress during this challenge using the check panel within the workspace once the challenge is deployed. The checks within the check panel report on the state of some or all of the required tasks within the challenge.
+
+Once you have completed the requested tasks, you will need to document the methodology you used with as much detail and professionalism as necessary. This should be done on the documentation tab within the workspace once the challenge is deployed. Below the main documentation section be sure to include a tagged list of applications you used to complete the challenge.
+
+Your username/password to access all virtual machines and services within the workspace will be the following...
+Username: playerone
+Password: password123
+
+The username/password used to access the Firewall's web interface within the workspace will be the following...
+Username: admin
+Password: password123
+
+You are provided with Windows "Perfmon" and "CrystalDiskMark" to benchmark the Domain Controller.
+
+The report from Perfmon must be named "Disk_report1.csv" and must be placed in "C:\PerfLogs\Admin\". The report from Crystal Disk Mark must be named "Disk_Report2.txt" and must be placed in "C:\PerfLogs\Admin\".
