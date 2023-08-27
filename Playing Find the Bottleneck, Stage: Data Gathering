@@ -28,7 +28,7 @@ You are provided with Windows "Perfmon" and "CrystalDiskMark" to benchmark the D
 
 The report from Perfmon must be named "Disk_report1.csv" and must be placed in "C:\PerfLogs\Admin\". The report from Crystal Disk Mark must be named "Disk_Report2.txt" and must be placed in "C:\PerfLogs\Admin\".
 
-# MEETING BRIEF
+# MEETING BRIEFING
 Gilly Bates" I was out in the field yesterday and remoted onto the AD to check something and it was absolutely crawling. I have no idea if it was just a bad connection from where I was, or if the server is having some hardware issues. Can someone please check the AD server for me today? I'm not available but it needs to be checked on!
 
 Thanh Akasaka: I went by the AD while going to grab some coffee, Gill. One of the drives in that area is running really loud. I have no idea what box or drive is the culprit because I'm not really familiar with the hardware itself... and I didn't really want to check because I really needed coffee... You understand I'm sure.
@@ -39,7 +39,7 @@ Richard LeGrand: SOMEONE CHECK ON THE ACTIVE DNS SERVER PLEASE. THIS SHOULD HAVE
 
 Gilly Bates: Yeah, well... @playerone just run a perfmon with the disk counters enabled and export a csv report from that to the usual "C:\PerfLogs\Admin\" directory and call it "Disk_Report1.csv", also I think I've got some HDD benchmarking software on that box called Crystal Mark or something, run that too an export a report from that to the same location but call it "Disk_Report2.txt"
 
-# DOCUMENTATION
+# SUBMITTED DOCUMENTATION
 Create Performance Monitor Report:
 
 Opened the Domain-Controller Virtual Machine, signed in with playerone username and password, right clicked on Start, clicked Search, searched for Performance Monitor, in left panel expanded Data Collector Sets, right clicked User Defined -> New -> Data Collector Set, named Disk_Reprt1, Create manually (Advanced), Create Data Logs -> Checked Performance Counter, Event Trace Data, System configuration information, Added Logical Disk and PHysical Disk Counters and Saved to Root Directory: C:\PerfLogs\Admin\, Run program as Playerone and inserted username and password. After Disk_Report1 Data Collector Set was i right click on DataCollector01 -> Properties -> Log format -> Comma Seperated -> Pressed Apply and then OK.  Then Right clicked Disk_Report1 under User Defined in left panel and clicked Start, waited a few minutes and Stopped it. Wen to C:\PerfLogs\Admin\Disk_Report1\AD_20230827-000001 and Renamed DataCollector03 as Disk_Report1.csv and moved file into C:\PerfLogs\Admin\. Received Green Check: Desired State. 
