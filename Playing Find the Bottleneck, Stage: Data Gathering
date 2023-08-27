@@ -5,7 +5,8 @@ Framework Category: Operate and Maintain
 Specialty Area: Customer Service and Technical Support
 Work Role: Technical Support Specialist
 Task Description: Monitor and report client-level computer system performance. (T0502)
-Scenario
+
+SCENARIO
 During a systems design meeting our systems engineer noted that the hard drive in our AD server may be a performance bottleneck. Before our next meeting we will need more information so that we might select the right system components to upgrade to best increase performance. To rule in or our the AD server's hard drive we need you to run some performance tests on it and return the resulting data to us. Be sure to check with the operations staff and see what benchmarks they prefer.
 
 Additional Information
