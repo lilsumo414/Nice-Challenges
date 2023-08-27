@@ -1,0 +1,14 @@
+CUSTOMER SUPPORT CRASH COURSE [NG]
+
+# SUBMITTED DOCUMENTATION
+For Employee_Info:
+
+On Workstation-Desk I went to fileshare.daswebs.com on mozilla -> clicked Shared Folders under Access Rights Management -> Clicked ADD and created employee_info. -> went to SMB/CIFS -> Shares and added employee_info. Then Went to This PC -> Networks -> Connected the network -> FILESHARE -> Right clicked Employee_info -> mapped the drive -> then mapped the drive to O:. Resolved the ticker
+
+For RDP Database:
+
+On Database -> went to server manager -> clicked Disabled on Remote Desktop -> Select Users -> Add -> added Gilly Bates -> Refreshed to show that Remote Desktop was enabled. Resovled the ticket
+
+Other challenges:
+
+I was having difficulty wit the other challenges. I even went to the walkthrough for help however for many of the linux commands I kept getting an error saying Command not Found. I was unable to resolve the issues and would great appreciate any help or solutions so I can attempt these again.
